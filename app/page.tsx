@@ -1,6 +1,7 @@
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
+
 import AcmeLogo from './ui/acme-logo';
 import { lusitana } from './ui/fonts';
 
@@ -37,7 +38,7 @@ export default function Page() {
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
           />
-           <Image
+          <Image
             src="/hero-mobile.png"
             width={500}
             height={620}
